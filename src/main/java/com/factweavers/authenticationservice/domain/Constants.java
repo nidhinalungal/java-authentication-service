@@ -1,0 +1,65 @@
+package com.factweavers.authenticationservice.domain;
+
+public class Constants {
+    public static final String SECRET_KEY = "property-validation-2023";
+    public static final String JWT_TOKEN_PREFIX_FOR_AUTHENTICATION = "Bearer ";
+    public static final String ROLE_NOT_FOUND = "Request role is invalid";
+    public static final String USER_EMPTY = "Could n't find any users";
+    public static final String EXPIRED_TOKEN = "The token is expired and not valid anymore";
+    public static final String MALFORMED_TOKEN = "The token is invalid";
+    public static final String INVALID_CREDENTIALS = "Invalid credentials";
+    public static final String OTP_SUCCESS = "OTP sent successfully";
+    public static final String INVALID_USER = "User not found";
+    public static final String INVALID_PIN = "Invalid pinId";
+    public static final String INVALID_MOBILE = "Sorry we could not found any mobile number registered";
+    public static final String INVALID_OTP = "This otp is invalid";
+    public static final String OTP_LIMIT = "Maximum number of otp request reached threshold Try again later";
+    public static final String EID_OTP_VALIDATION_ROLE = "oV";
+    public static final String PASSWORD_VALIDATION_ROLE = "pV";
+    public static final String TEMPLATE_OTP = "--otp--";
+    public static final String ALGORITHM_ERROR = "Couldn't validate the user. Please try re-login";
+    public static final String FEIGN_ERROR = "Data insufficient or Provider error";
+    public static final String SUCCESS_MESSAGE = "success";
+    public static final String TOKEN_GEN_SUCCESS = "Token generated successfully";
+    public static final String PASSWORD_CHANGED = "Password Changed Successfully";
+    public static final String EMAIL_SEND_SUCCESS = "Email sent successfully";
+    public static final String EID_NOT_FOUND = "EID not recognized. Only licensed valuers are allowed to login";
+    public static final String EMAIL_SEND_FAILURE = "Couldn't sent Email";
+    public static final String UAE_PASS_USER_TYPE_SOP1 = "SOP1";
+    public static final String UAE_PASS_USER_TYPE_SOP2 = "SOP2";
+    public static final String UAE_PASS_USER_TYPE_SOP3 = "SOP3";
+    public static final String NEW_ACCESS_TOKEN_GEN_SUCCESS = "New access token has been generated successfully";
+    public static final String REFRESH_TOKEN_DATABASE_ERROR = "Refresh Token not in the database";
+    public static final String REFRESH_TOKEN_EXPIRED = "Refresh token was expired. Please make a new signin request";
+    public static final String TOKEN_VALID = "Token is valid";
+    public static final String USER_CREATE_SUCCESS = "User successfully created";
+    public static final String USER_CREATE_FAILED = "Couldn't create user";
+    public static final String USER_ALREADY_PRESENT = "User with the provided email already present";
+    public static final String HTML_ERROR = "HTML error";
+    public static final String UPDATE_SUCCESS = "User updated successfully";
+    public static final String UPDATE_FAILED = "Unable to update user";
+    public static final String MUNCIPALITY_ERROR = "User not under your municipality";
+    public static final String COMPANY_ERROR = "User not under your company";
+    public static final String UNABLE_TO_FETCH_DETAILS = "Unable to fetch details";
+    public static final String USER_DELETE_SUCCESSFULLY = "User successfully deleted";
+    public static final String USER_DELETE_FAILED = "Unable to delete user";
+    public static final String MUNICIPALITY_NOT_ASSIGNED = "User has no municipality assigned, Unable to fetch users";
+    public static final String COMPANY_NOT_ASSIGNED = "User has no company assigned, Unable to fetch users";
+    public static final String USER_NOT_FOUND = "User not found on database";
+    public static final String USER_NOT_AUTHORIZED = "User not authorized to perform this operation";
+    public static final String MUNICIPALITY_NOT_FOUND = "Municipality not registered in the system";
+    public static final String STATUS_ACTIVE = "active";
+    public static final String STATUS_INACTIVE = "inactive";
+    public static final String INVALID_REQUEST = "Invalid Request";
+    public static final String INVALID_FILE_FORMAT = "The file is not supported in the system. Please use the allowed file formats(pdf,doc,img etc)";
+    public static final String UPLOAD_FAILED = "File upload failed";
+    public static final String DOWNLOAD_FAILED = "File downloading failed";
+    public static final String INVALID_DOCUMENT = "Invalid Document, document not found";
+    public static final String REQUEST_NOT_FOUND = "Invalid Request, request not found";
+
+    public static final String APPLICATION_REQUESTS_NOT_FOUND = "Invalid Application Request";
+
+    public static final String SUCCESS = "SUCCESS";
+    public static final String TYPE_MUNICIPALITY = "municipality";
+    public static final String TYPE_COMPANY = "company";
+}
